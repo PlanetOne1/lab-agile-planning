@@ -1,23 +1,7 @@
----
-name: User Story
-about: Create a user story
-title: ''
-labels: ''
-assignees: ''
----
+As a customer
+I need the ability to update a counter
+So that I can correct an incorrect count
 
-**As a** [role]
-**I need** [function]
-**So that** [benefit]
-
-### Details and Assumptions
-
-* [document what you know]
-
-### Acceptance Criteria
-
-```gherkin
-Given [some context]
-When [certain action is taken]
-Then [the outcome of action is observed]
-```
+Given a counter exists
+When I update the counter value
+Then the new value is saved
